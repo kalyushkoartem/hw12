@@ -29,7 +29,7 @@ console.log(allProps);
 }
 console.log(countProps(users));
 
-const users = {
+const usersFind = {
     Igor: 1,
     Pavlo: 67,
     Artem: 76,
@@ -55,7 +55,7 @@ function findBestEmployee(employees) {
 }
 console.log(findBestEmployee(users));
 
-const users = {
+const usersMoney = {
     Igor: 1000,
     Pavlo: 2500,
     Artem: 1200,
@@ -74,7 +74,7 @@ for (const elem of values) {
 }
 console.log(countTotalSalary(users));
 
-const products = [
+const productsPrice = [
   { name: "Apple", price: 100 },
   { name: "Banana", price: 50 },
   { name: "Orange", price: 80 }
