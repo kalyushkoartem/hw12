@@ -29,13 +29,13 @@ console.log(allProps);
 }
 console.log(countProps(users));
 
-const usersFind = {
+const findBestEmployee = {
     Igor: 1,
     Pavlo: 67,
     Artem: 76,
     Polina:3,
 }
-const entries = Object.entries(users)
+const entries = Object.entries(findBestEmployee)
 function findBestEmployee(employees) {
     let total = 0;
     let totalName = "";
@@ -53,7 +53,7 @@ function findBestEmployee(employees) {
     return `${totalName}: ${total}`;
     
 }
-console.log(findBestEmployee(users));
+console.log(findBestEmployee(findBestEmployee));
 
 const usersMoney = {
     Igor: 1000,
@@ -72,7 +72,7 @@ for (const elem of values) {
     return total
 
 }
-console.log(countTotalSalary(users));
+console.log(countTotalSalary(usersMoney));
 
 const productsPrice = [
   { name: "Apple", price: 100 },
@@ -80,14 +80,16 @@ const productsPrice = [
   { name: "Orange", price: 80 }
 ];
 
-console.log(getAllPropValues(products, "name"));
 
-
-console.log(getAllPropValues(products, "price"));
 
 function getAllPropValues(arr, prop) {
   return arr.map(obj => obj[prop]);
 }
+
+console.log(getAllPropValues(products, "name"));
+
+
+console.log(getAllPropValues(products, "price"));
 
 
 const products = [
