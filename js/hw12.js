@@ -85,13 +85,15 @@ const productsPrice = [
 
 
 function getAllPropValues(arr, prop) {
-  return arr.map(obj => obj[prop]);
+    return arr.map(obj => obj[prop]);
+    
 }
+console.log(getAllPropValues(productsPrice, "name"));
 
-console.log(getAllPropValues(products, "name"));
 
 
-console.log(getAllPropValues(products, "price"));
+
+console.log(getAllPropValues(productsPrice, "price"));
 
 
 const products = [
